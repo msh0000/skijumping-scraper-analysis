@@ -48,7 +48,7 @@ def events_info_to_csv(events):
         data.append(result)
 
     df = pd.DataFrame(data)
-    df.to_csv("events.csv", index=False)
+    df.to_csv("../data/events.csv", index=False)
 def results_to_csv(results):
     data = []
     for event_id, link in enumerate(results, start=1):
@@ -65,7 +65,7 @@ def results_to_csv(results):
                     "Jumper": row[1].text,
                     "Country": row[2].find("img")["alt"],
                     "Jump1": row[3].text,
-                    "Jump2": '0' if row[4].text == "-" else row[4].text,
+                    "Jump2": None if row[4].text == "-" else row[4].text,
                     "Points": row[5].text,
                     "Event_id": event_id
                 }
@@ -76,13 +76,13 @@ def results_to_csv(results):
                     "Jumper": row[1].text,
                     "Country": row[2].find("img")["alt"],
                     "Jump1": row[3].text,
-                    "Jump2": '0',
+                    "Jump2": None,
                     "Points": row[4].text,
                     "Event_id": event_id
                 }
             data.append(result)
     df = pd.DataFrame(data)
-    df.to_csv("results.csv", index=False)
+    df.to_csv("../data/results.csv", index=False)
 
 
 if __name__ == "__main__":
