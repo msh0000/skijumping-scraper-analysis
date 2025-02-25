@@ -1,0 +1,31 @@
+Event_id,Date,Country,City,HS_Point,K_Point
+1, 23-11-2024,Norwegia,Lillehammer,140,123
+2, 24-11-2024,Norwegia,Lillehammer,140,123
+3, 30-11-2024,Finlandia,Ruka,142,120
+4, 01-12-2024,Finlandia,Ruka,142,120
+5, 07-12-2024,Polska,Wisła,134,120
+6, 08-12-2024,Polska,Wisła,134,120
+7, 14-12-2024,Niemcy,Titisee-Neustadt,142,125
+8, 15-12-2024,Niemcy,Titisee-Neustadt,142,125
+9, 21-12-2024,Szwajcaria,Engelberg,140,125
+10, 22-12-2024,Szwajcaria,Engelberg,140,125
+11, 29-12-2024,Niemcy,Oberstdorf,137,120
+12, 01-01-2025,Niemcy,Garmisch-Partenkirchen,142,125
+13, 04-01-2025,Austria,Innsbruck,128,120
+14, 06-01-2025,Austria,Bischofshofen,142,125
+15, 11-01-2025,Włochy,Predazzo,143,128
+16, 19-01-2025,Polska,Zakopane,140,125
+17, 25-01-2025,Niemcy,Oberstdorf,235,200
+18, 26-01-2025,Niemcy,Oberstdorf,235,200
+19, 01-02-2025,Niemcy,Willingen,147,130
+20, 02-02-2025,Niemcy,Willingen,147,130
+21, 08-02-2025,USA,Lake Placid,128,115
+22, 09-02-2025,USA,Lake Placid,128,115
+23, 15-02-2025,Japonia,Sapporo,137,123
+24, 16-02-2025,Japonia,Sapporo,137,123
+25, 13-03-2025,Norwegia,Oslo,134,120
+26, 15-03-2025,Norwegia,Vikersund,240,200
+27, 16-03-2025,Norwegia,Vikersund,240,200
+28, 22-03-2025,Finlandia,Lahti,130,116
+29, 28-03-2025,Słowenia,Planica,240,200
+30, 30-03-2025,Słowenia,Planica,240,200
